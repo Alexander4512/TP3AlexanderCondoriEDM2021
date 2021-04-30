@@ -19,19 +19,16 @@ public class ClienteServiceImp implements IClienteService{
 	@Autowired
 	Cliente unCliente;
 
-	@Override
 	public void guardarCliente(Cliente unCliente) {
 		// TODO Auto-generated method stub
 		listadoClientes.add(unCliente);
 	}
 
-	@Override
 	public Cliente crearCliente() {
 		// TODO Auto-generated method stub
 		return unCliente;
 	}
 
-	@Override
 	public List<Cliente> obtenerTodosClientes() {
 		// TODO Auto-generated method stub
 		return listadoClientes;

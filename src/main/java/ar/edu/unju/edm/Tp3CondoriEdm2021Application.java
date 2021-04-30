@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Tp3CondoriEdm2021Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Tp03DmApellidoApplication.class, args);
+		SpringApplication.run(Tp3CondoriEdm2021Application.class, args);
 	}
 
 }
