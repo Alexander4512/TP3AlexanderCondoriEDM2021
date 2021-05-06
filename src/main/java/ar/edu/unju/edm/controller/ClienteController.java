@@ -46,8 +46,6 @@ public class ClienteController {
 		//obtengo tres fechas
 		LocalDate fecha1 = clienteService.obtenerTodosClientes().get(0).getFechaNacimiento();
 		LocalDate fecha2 = LocalDate.now();
-		LocalDate fecha3 = LocalDate.of(2020, 3, 25);
-		//calculo el período entre dos de ellas
 		Period periodo = Period.between(fecha1,fecha2);
 		//una vez que tengo el período puedo saber sus cantidades en días meses y años
 		int dias = periodo.getDays();		
